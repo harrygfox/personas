@@ -1,0 +1,34 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: $green;
+  margin: 0;
+}
+
+.wrapper {
+
+    h1 {
+        color: $darkGreen;
+        margin: 0;
+        padding-top: 0.4em;
+        padding-bottom: 0.5em;
+        font-size: 3em;
+        border-bottom: $white solid 0.5em;
+    }  
+}
+
+.frame {
+    float: left;
+    width: 70%;
+    margin: 0 15%;
+
+    img {
+        display: block;
+        float: left;
+        max-width: 25%;
+    }
+
+    h2 {
+        margin: 0;
+    }
+}
