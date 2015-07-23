@@ -1,9 +1,10 @@
 {
     "Zairah Khurshid": {
-        "imgsrc": "img/zairah.jpg",
-        "group": "school leaver",
+        "imgsrc": "zairah.jpg",
         "type": "potential learner",
+        "group": "school leaver",
         "age": 18,
+        "education": "secondary school",
         "occupation": "unemployed",
         "hardware": "iPhone 5C, Lenovo PC",
         "software": "iOS, Windows 9",
@@ -16,6 +17,48 @@
             "To find a job",
             "To learn something that employers actually want",
             "To get useful skills"
+        ],
+        "bio": "Zairah is an enthusiastic and scholarly person who enjoys studying. She has decided that university is not for her and is looking to start a career.",
+        "goals": [
+            ""
         ]
+    },
+
+    "Andrew Clemments": {
+        "imgsrc": "andrew.jpg",
+        "type": "",
+        "group": "Enterprise",
+        "age": 54,
+        "education": "university",
+        "occupation": "",
+        "hardware": "",
+        "software": "",
+        "browser": "",
+        "comforts": {
+            "web": "",
+            "attitude": ""
+        },
+        "needs": [],
+        "bio": "",
+        "goals": []
+    },
+
+    "First Lastname": {
+        "imgsrc": "",
+        "type": "",
+        "group": "", 
+        "age": "",
+        "education": "",
+        "occupation": "",
+        "hardware": "",
+        "software": "",
+        "browser": "",
+        "comforts": {
+            "web": "",
+            "attitude": ""
+        },
+        "needs": [],
+        "bio": "",
+        "goals": []
     }
 }
