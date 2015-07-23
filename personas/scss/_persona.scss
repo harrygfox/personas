@@ -1,0 +1,64 @@
+.frame {
+    float: left;
+    width: 80%;
+    margin: 1em 10%;
+    background-color: $yellow;
+    border-radius: 0.5em;
+
+    h2, p, ul, li {
+        text-align: left;
+    }
+
+    h2 {
+        margin: 0.2em 0
+    }
+    p {
+        color: $black;
+    }
+}
+
+img.persona-image {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+p.title {
+    font-weight: 600;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    margin-bottom: 0.25em;
+}
+
+p.key {
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: $darkGreen;
+    margin-bottom: 0.2em;
+    span {
+        text-transform: capitalize;
+        color: $black;
+        font-weight: 300;
+    }
+    &.user {
+        font-size: 1.1em;
+        span {
+            padding: 0 0.5em;
+        }
+    }
+}
+ul.needs {
+    padding: 0;
+    list-style-type: square;
+    li {
+        color: $darkGreen;
+        font-size: 0.9em;
+        margin-bottom: 0.2em;
+    }
+}
+p.body {
+    color: $black;
+    background-color: $green;
+    padding: 0.5em;
+}
