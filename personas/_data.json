@@ -1,0 +1,21 @@
+{
+    "Zairah Khurshid": {
+        "imgsrc": "img/zairah.jpg",
+        "group": "school leaver",
+        "type": "potential learner",
+        "age": 18,
+        "occupation": "unemployed",
+        "hardware": "iPhone 5C, Lenovo PC",
+        "software": "iOS, Windows 9",
+        "browser": "Google Chrome",
+        "comforts": {
+            "web": "high",
+            "attitude": "early adopter"
+        },
+        "needs": [
+            "To find a job",
+            "To learn something that employers actually want",
+            "To get useful skills"
+        ]
+    }
+}

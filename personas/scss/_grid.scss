@@ -1,0 +1,17 @@
+// global properties
+.col-25, .col-33, .col-75 {
+    float: left
+}
+.cuffs {
+    padding: 0.5em;
+}
+// Individual widths
+.col-25 {
+    width: 25%;
+}
+.col-33 {
+    width: 33%
+}
+.col-75 {
+    width: 75%;
+}

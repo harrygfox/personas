@@ -1,34 +1,70 @@
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-align: center;
-  background-color: $green;
-  margin: 0;
-}
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: $darkGreen;
+    margin: 0;
 
-.wrapper {
-
-    h1 {
-        color: $darkGreen;
+    * {
         margin: 0;
-        padding-top: 0.4em;
-        padding-bottom: 0.5em;
-        font-size: 3em;
-        border-bottom: $white solid 0.5em;
-    }  
+    }
 }
+
+h1 {
+    color: $yellow;
+    font-size: 3em;
+    padding-top: 0.4em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: $white solid 0.3em;
+}  
 
 .frame {
     float: left;
-    width: 70%;
-    margin: 0 15%;
+    width: 80%;
+    margin: 1em 10%;
+    background-color: $yellow;
 
-    img {
-        display: block;
-        float: left;
-        max-width: 25%;
+    h2, p, ul, li {
+        text-align: left;
     }
 
     h2 {
-        margin: 0;
+        margin: 0.2em 0
+    }
+    p {
+        color: $black;
+    }
+}
+
+img.persona-image {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+p.title {
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 0.25em;
+    font-size: 1.1em;
+}
+p.key {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $darkGreen;
+    font-size: 0.9em;
+    margin-bottom: 0.2em;
+    span {
+        text-transform: capitalize;
+        color: $black;
+        font-weight: 300;
+    }
+}
+ul.needs {
+    padding: 0;
+    list-style-type: circle;
+    li {
+        color: $darkGreen;
+        font-size: 0.9em;
     }
 }

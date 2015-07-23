@@ -1,6 +1,47 @@
-.wrapper
-    h1 #{ title }
+h1 #{ title }
+
+for user, slug in public._data
     .frame
-        img(src="img/zairah.jpg", alt="")
-        h2 Zairak Khurshid
-        
+        .col-25
+            img(src="#{ user.imgsrc }", 
+                alt=""
+                class="persona-image")
+        .col-75
+            .cuffs
+                h2 #{ slug }
+                p.key User Group:&nbsp
+                    span #{ user.group }
+                p.key User Type:&nbsp
+                    span #{ user.type }
+
+            .col-33
+                .cuffs
+                    p.title Demographics
+                    p.key Age:&nbsp
+                        span #{ user.age }
+                    p.key Occupation:&nbsp
+                        span #{ user.occupation }
+                    p.key Hardware:&nbsp
+                        span #{ user.hardware }
+                    p.key Software:&nbsp
+                        span #{ user.software }
+                    p.key Browser:&nbsp
+                        span #{ user.browser }
+
+            .col-33
+                .cuffs    
+                    p.title Tech Comforts
+                    p.key Web:&nbsp
+                        span #{ user.comforts.web }
+                    p.key Attitude:&nbsp
+                        span #{ user.comforts.attitude }
+
+            .col-33
+                .cuffs    
+                    p.title Needs
+                    ul.needs
+                        each val in user.needs
+                            li= val
+
+
+
