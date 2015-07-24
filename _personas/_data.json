@@ -28,7 +28,7 @@
         "imgsrc": "macey.jpg",
         "type": "potential learner",
         "group": "graduate", 
-        "age": "21",
+        "age": 21,
         "education": "university",
         "occupation": "part-time sales assistant",
         "hardware": "Samsung S4 Mini, Apple MacBook Air",
@@ -47,7 +47,7 @@
         "imgsrc": "andrew.jpg",
         "type": "potential learner",
         "group": "employed", 
-        "age": "33",
+        "age": 33,
         "education": "university",
         "occupation": "Associate Solicitor",
         "hardware": "Blackberry Classic, iPhone 6, ",
@@ -66,7 +66,7 @@
         "imgsrc": "zachery.jpg",
         "type": "actual learner",
         "group": "school leaver", 
-        "age": "",
+        "age": 17,
         "education": "",
         "occupation": "",
         "hardware": "",
@@ -82,10 +82,10 @@
     },
 
     "Kimberley Pearce": {
-        "imgsrc": "",
+        "imgsrc": "kimberley.jpg",
         "type": "actual learner",
         "group": "graduate", 
-        "age": "",
+        "age": 22,
         "education": "",
         "occupation": "",
         "hardware": "",
@@ -104,7 +104,7 @@
         "imgsrc": "zairah.jpg",
         "type": "actual learner",
         "group": "employed", 
-        "age": "",
+        "age": 25,
         "education": "",
         "occupation": "",
         "hardware": "",
@@ -119,8 +119,8 @@
         "goals": []
     },
 
-    "Maurice Rice": {
-        "imgsrc": "andrew.jpg",
+    "Esther Leone": {
+        "imgsrc": "esther.png",
         "type": "potential client",
         "group": "Enterprise",
         "age": 54,
@@ -138,11 +138,11 @@
         "goals": []
     },
 
-    "Esther Leone": {
-        "imgsrc": "",
+    "Maurice Rice": {
+        "imgsrc": "maurice.jpg",
         "type": "potential client",
         "group": "Education", 
-        "age": "",
+        "age": 48,
         "education": "",
         "occupation": "",
         "hardware": "",
@@ -158,10 +158,10 @@
     },
 
     "Alan Delaney": {
-        "imgsrc": "",
+        "imgsrc": "alan.jpg",
         "type": "actual client",
         "group": "Enterprise", 
-        "age": "",
+        "age": 55,
         "education": "",
         "occupation": "",
         "hardware": "",
@@ -177,10 +177,10 @@
     },
 
     "Lewie Allen": {
-        "imgsrc": "",
+        "imgsrc": "lewie.jpg",
         "type": "actual client",
         "group": "education", 
-        "age": "",
+        "age": 32,
         "education": "",
         "occupation": "",
         "hardware": "",
