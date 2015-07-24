@@ -1,6 +1,6 @@
 {
-    "Zairah Khurshid": {
-        "imgsrc": "zairah.jpg",
+    "Helena Sparks": {
+        "imgsrc": "helena.jpg",
         "type": "potential learner",
         "group": "school leaver",
         "age": 18,
@@ -8,14 +8,15 @@
         "occupation": "unemployed",
         "hardware": "iPhone 5C, Lenovo PC",
         "software": "iOS, Windows 9",
-        "browser": "Google Chrome",
+        "browser": "Chrome",
         "comforts": {
-            "web": "high",
+            "web": "digital native",
             "attitude": "early adopter"
         },
         "needs": [
-            "To find a job",
-            "To know what the jobs are like"
+            "I need to find a job, but I don't know what.",
+            "I want to know what jobs are out there.",
+            "What are jobs really like? Should I go to university?"
         ],
         "bio": "Zairah is an enthusiastic and scholarly person who enjoys studying. She has decided that university is not for her and is looking to start a career.",
         "goals": [
@@ -23,9 +24,104 @@
         ]
     },
 
-    "Andrew Clemments": {
+    "Macey Alves": {
+        "imgsrc": "",
+        "type": "potential learner",
+        "group": "graduate", 
+        "age": "21",
+        "education": "university",
+        "occupation": "unemployed",
+        "hardware": "Samsung S4 Mini, Apple MacBook Air",
+        "software": "Android, OSX",
+        "browser": "Chrome",
+        "comforts": {
+            "web": "digital native",
+            "attitude": "late majority"
+        },
+        "needs": [],
+        "bio": "",
+        "goals": []
+    },
+
+    "Clarence Ford": {
         "imgsrc": "andrew.jpg",
-        "type": "",
+        "type": "potential learner",
+        "group": "employed", 
+        "age": "",
+        "education": "",
+        "occupation": "",
+        "hardware": "",
+        "software": "",
+        "browser": "",
+        "comforts": {
+            "web": "",
+            "attitude": "laggard"
+        },
+        "needs": [],
+        "bio": "",
+        "goals": []
+    },
+
+    "Zachery O'Leary": {
+        "imgsrc": "zachery.jpg",
+        "type": "actual learner",
+        "group": "school leaver", 
+        "age": "",
+        "education": "",
+        "occupation": "",
+        "hardware": "",
+        "software": "",
+        "browser": "",
+        "comforts": {
+            "web": "",
+            "attitude": "innovator"
+        },
+        "needs": [],
+        "bio": "",
+        "goals": []
+    },
+
+    "Kimberley Pearce": {
+        "imgsrc": "",
+        "type": "actual learner",
+        "group": "graduate", 
+        "age": "",
+        "education": "",
+        "occupation": "",
+        "hardware": "",
+        "software": "",
+        "browser": "",
+        "comforts": {
+            "web": "",
+            "attitude": ""
+        },
+        "needs": [],
+        "bio": "",
+        "goals": []
+    },
+
+    "Sacha Bernard": {
+        "imgsrc": "zairah.jpg",
+        "type": "actual learner",
+        "group": "employed", 
+        "age": "",
+        "education": "",
+        "occupation": "",
+        "hardware": "",
+        "software": "",
+        "browser": "",
+        "comforts": {
+            "web": "",
+            "attitude": ""
+        },
+        "needs": [],
+        "bio": "",
+        "goals": []
+    },
+
+    "Maurice Rice": {
+        "imgsrc": "andrew.jpg",
+        "type": "potential client",
         "group": "Enterprise",
         "age": 54,
         "education": "university",
@@ -42,10 +138,48 @@
         "goals": []
     },
 
-    "First Lastname": {
+    "Esther Leone": {
         "imgsrc": "",
-        "type": "",
-        "group": "", 
+        "type": "potential client",
+        "group": "Education", 
+        "age": "",
+        "education": "",
+        "occupation": "",
+        "hardware": "",
+        "software": "",
+        "browser": "",
+        "comforts": {
+            "web": "",
+            "attitude": ""
+        },
+        "needs": [],
+        "bio": "",
+        "goals": []
+    },
+
+    "Alan Delaney": {
+        "imgsrc": "",
+        "type": "actual client",
+        "group": "Enterprise", 
+        "age": "",
+        "education": "",
+        "occupation": "",
+        "hardware": "",
+        "software": "",
+        "browser": "",
+        "comforts": {
+            "web": "",
+            "attitude": ""
+        },
+        "needs": [],
+        "bio": "",
+        "goals": []
+    },
+
+    "Lewie Allen": {
+        "imgsrc": "",
+        "type": "actual client",
+        "group": "education", 
         "age": "",
         "education": "",
         "occupation": "",

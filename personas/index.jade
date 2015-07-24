@@ -1,24 +1,49 @@
 h1 #{ title }
-p.intro
-    | A user persona is a model of a real person. 
-    | Each persona represents a proportion of the real users. 
-    | Each persona becomes the main character in their 
-    a(  href="https://github.com/proversity-org/project-farfalla/blob/master/story-writing.md#user-stories"
-        target="_blank") user story
-    | . The main character has attitudes, motivations, pain points, and goals. 
-    | Since we can measure whether a goal has been met or not, we can keep the project focused around the users in an exercise of goal-directed design.
+.intro
+    p
+        | A user persona is a model of a real person. 
+        | Each persona represents a proportion of the real users. 
+        | Each persona becomes the main character in their 
+        a(  href="https://github.com/proversity-org/project-farfalla/blob/master/story-writing.md#user-stories"
+            target="_blank") user story
+        | . The main character has attitudes, motivations, pain points, and goals. 
+        | Since we can measure whether a goal has been met or not, we can keep the project focused around the users in an exercise of goal-directed design.
 
-//- RHUBARB PERSONAS https://docs.google.com/presentation/d/1M17wKEcPvt0uIWG3T37325nuxJKVK0OoimUhZvFT-Vc/edit#slide=id.g319772836_0_0
-//- TECH PARTNERSHIP https://hackpad.com/Employer-Graduate-Matchup-Platform-iABOooE92QQ#:h=User-Personas
+    :markdown
+        Attitudes to Technology:
+        - Innovators are **ventursome** and enjoy being the first. They are quick to adopt *anything* new.
+        - Early Adopters are **opinion leaders**. They see discoveries by innovators, find practical applications, and then communicate their opinions to their followers.
+        - Early Majority are **value shoppers**. They wait until they are *sure* they are going to get value from the new product. 
+        - Late Majority **wait for the majority** to adopt innovation before subscribing to it as well.
+        - Laggards are **traditionalists**. They adopt innovation unenthusiastically and generally say they are happy with what they have already.
+        Each class of adopter has a different burden of proof. This proof must be presented in an appropriate way.
+
 for user, slug in public._data
     .frame
         .col-25
-            img(src="img/#{ user.imgsrc }", 
-                alt=""
+            img(src="img/#{ user.imgsrc }" 
+                alt="Bundl user profile picture"
                 class="persona-image")
         .col-75
             .cuffs
                 h2 #{ slug }
+                if user.type === "potential learner"
+                    img(src="img/mortarboard.svg.png"
+                        alt="user type logo"
+                        class="user-type-img")
+                else if user.type === "actual learner"
+                    img(src="img/mortarboard.svg.png"
+                        alt="user type logo"
+                        class="user-type-img")
+                else if user.type === "actual client"
+                    img(src="img/briefcase.svg"
+                        alt="user type logo"
+                        class="user-type-img")
+                else if user.type === "potential client"
+                    img(src="img/briefcase.svg"
+                        alt="user type logo"
+                        class="user-type-img")
+
                 p.key.user User Group:&nbsp
                     span #{ user.group }
                 p.key.user User Type:&nbsp
@@ -31,16 +56,18 @@ for user, slug in public._data
                         span #{ user.age }
                     p.key Occupation:&nbsp
                         span #{ user.occupation }
+                    p.key Education:&nbsp
+                        span #{ user.education }
                     p.key Hardware:&nbsp
                         span #{ user.hardware }
-                    p.key Software:&nbsp
-                        span #{ user.software }
-                    p.key Browser:&nbsp
-                        span #{ user.browser }
 
             .col-33
                 .cuffs    
                     p.title Tech Comforts
+                    p.key Software:&nbsp
+                        span #{ user.software }
+                    p.key Browser:&nbsp
+                        span #{ user.browser }
                     p.key Web:&nbsp
                         span #{ user.comforts.web }
                     p.key Attitude:&nbsp
