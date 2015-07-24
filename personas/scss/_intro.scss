@@ -1,0 +1,33 @@
+.intro {    
+    p, ul {
+        background-color: $black;
+        color: $yellow;
+        padding: 1em 12em;
+        text-align: justify;
+        line-height: 1.4;
+        letter-spacing: 1px;
+        font-weight: 300;
+        a {
+            color: $yellow;
+            font-size: 1.1em;
+            text-decoration: underline;
+            padding: 0.1em;
+            &:visited {
+                color: $green;
+                text-decoration: strikethrough;
+            }
+            &:hover {
+                color: $darkGreen;
+                background-color: $white;
+                text-decoration: none;
+            }
+            &:active {
+                text-decoration: strikethrough;
+            }
+        }
+    }
+    ul {
+        padding-top: 0;
+        padding-bottom: 2em;
+    }
+}
