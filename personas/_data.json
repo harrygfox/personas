@@ -6,7 +6,7 @@
         "age": 18,
         "education": "secondary school",
         "occupation": "unemployed",
-        "hardware": "iPhone 5C, Lenovo PC",
+        "hardware": "iPhone 5C, iPad ",
         "software": "iOS, Windows 9",
         "browser": "Chrome",
         "comforts": {
@@ -15,22 +15,22 @@
         },
         "needs": [
             "I need to find a job, but I don't know what.",
-            "I want to know what jobs are out there.",
-            "What are jobs really like? Should I go to university?"
+            "What are jobs really like? Should I go to university?",
+            "What are other people my age doing?"
         ],
-        "bio": "Zairah is an enthusiastic and scholarly person who enjoys studying. She has decided that university is not for her and is looking to start a career.",
+        "bio": "Helena is an enthusiastic and scholarly person. She enjoys studying and learning. She is very unsure about what to do with her life and is under some considerable pressure to make a decision.",
         "goals": [
-            ""
+            "Make a decision now that means "
         ]
     },
 
     "Macey Alves": {
-        "imgsrc": "",
+        "imgsrc": "macey.jpg",
         "type": "potential learner",
         "group": "graduate", 
         "age": "21",
         "education": "university",
-        "occupation": "unemployed",
+        "occupation": "part-time sales assistant",
         "hardware": "Samsung S4 Mini, Apple MacBook Air",
         "software": "Android, OSX",
         "browser": "Chrome",
@@ -47,15 +47,15 @@
         "imgsrc": "andrew.jpg",
         "type": "potential learner",
         "group": "employed", 
-        "age": "",
-        "education": "",
-        "occupation": "",
-        "hardware": "",
+        "age": "33",
+        "education": "university",
+        "occupation": "Associate Solicitor",
+        "hardware": "Blackberry Classic, iPhone 6, ",
         "software": "",
         "browser": "",
         "comforts": {
             "web": "",
-            "attitude": "laggard"
+            "attitude": "late majority"
         },
         "needs": [],
         "bio": "",
