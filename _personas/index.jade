@@ -53,7 +53,7 @@ for user, slug in public._data
                 p.key.user User Type:&nbsp
                     span #{ user.type }
 
-            .col-33
+            .col-50
                 .cuffs
                     p.title Demographics
                     p.key Age:&nbsp
@@ -65,7 +65,7 @@ for user, slug in public._data
                     p.key Hardware:&nbsp
                         span #{ user.hardware }
 
-            .col-33
+            .col-50
                 .cuffs    
                     p.title Tech Comforts
                     p.key Software:&nbsp
@@ -76,21 +76,16 @@ for user, slug in public._data
                         span #{ user.comforts.web }
                     p.key Attitude:&nbsp
                         span #{ user.comforts.attitude }
-
-            .col-33
-                .cuffs    
-                    p.title Needs
-                    ul.needs
-                        each val in user.needs
-                            li= val
+                
         .col-100
             .cuffs
                 p.title Bio / A day in the life
                 p.body #{ user.bio }
+            .cuffs    
+                p.title Pain
+                    each val in user.pain
+                        p.body= val
             .cuffs
                 p.title Goals and Motivation
                     each val in user.goals
                         p.body= val
-
-
-
