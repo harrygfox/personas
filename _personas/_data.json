@@ -6,22 +6,24 @@
         "age": 16,
         "education": "secondary school",
         "occupation": "unemployed",
-        "hardware": "iPhone 5C, iPad ",
-        "software": "iOS, Windows 9",
-        "browser": "Chrome",
+        "hardware": "iPhone 5C, iPad",
+        "software": "iOS",
+        "browser": "Safari",
         "comforts": {
             "web": "digital native",
             "attitude": "early adopter"
         },
         "pain": [
-            "I need to find a job, but I don't know what.",
-            "What are jobs really like? Should I go to university?",
-            "What are other people my age doing?"
+            "I don't know whether University is right for me or whether I should start a career",
+            "I don't know what the working environment is actually like.",
+            "I haven't done well in my exams. I am worried that my grades will hold me back."
         ],
-        "bio": "Helena is an enthusiastic and scholarly person. She enjoys studying and learning. She is very unsure about what to do with her life and is under some considerable pressure to make a decision.",
+        "bio": "Helena is enthusiastic and savvy. She is very unsure about what to do with her life and sees know value in education for its own sake. Parents and teachers have put her under some considerable pressure to make a decision about her future.",
         "goals": [
-            "Make a decision now that means",
-            "I didn't do well in my exams and I'm worried that will hold me back."
+            "To make a career decision that offers me options in the future.",
+            "To find information about working life and what is required or expected of people in work.",
+            "To demonstrate my value and skills beyond what it says on my exam results.",
+            "I am motivated by commitments I make to my parents, friends, and people I respect."
         ]
     },
 
@@ -32,7 +34,7 @@
         "age": 21,
         "education": "university",
         "occupation": "part-time sales assistant",
-        "hardware": "Samsung S4 Mini, Apple MacBook Air",
+        "hardware": "Samsung S4 Mini, MacBook Air",
         "software": "Android, OSX",
         "browser": "Chrome",
         "comforts": {
@@ -50,13 +52,13 @@
         "group": "employed", 
         "age": 33,
         "education": "university",
-        "occupation": "Associate Solicitor",
-        "hardware": "Blackberry Classic, iPhone 6, ",
-        "software": "",
-        "browser": "",
+        "occupation": "Sales and Marketing (Senior)",
+        "hardware": "iPhone 6, MacBook Pro",
+        "software": "iOS, OSX",
+        "browser": "Safari",
         "comforts": {
             "web": "",
-            "attitude": "late majority"
+            "attitude": "early majority"
         },
         "pain": [],
         "bio": "",
@@ -68,17 +70,21 @@
         "type": "actual learner",
         "group": "school leaver", 
         "age": 17,
-        "education": "",
-        "occupation": "",
-        "hardware": "",
-        "software": "",
-        "browser": "",
+        "education": "Secondary School",
+        "occupation": "part-time waiter",
+        "hardware": "HTC, Lenovo Z50",
+        "software": "Android, Windows 8",
+        "browser": "Chrome",
         "comforts": {
-            "web": "",
+            "web": "Digital native",
             "attitude": "innovator"
         },
-        "pain": [],
-        "bio": "",
+        "pain": [
+            "I don't know if what I'm learning is the most recent or most relevant thing.",
+            "I am worried that committing to learning one thing over another could be a waste of time.",
+            "When I am stuck I often struggle to find the right kind of help."
+        ],
+        "bio": "Zachery is a very independently minded individual and is not swayed by the opinions or decision of his peers. He has his finger on the pulse of modern developments in technology.",
         "goals": []
     },
 
@@ -86,7 +92,7 @@
         "imgsrc": "kimberley.jpg",
         "type": "actual learner",
         "group": "graduate", 
-        "age": 22,
+        "age": 23,
         "education": "",
         "occupation": "",
         "hardware": "",
@@ -105,10 +111,10 @@
         "imgsrc": "zairah.jpg",
         "type": "actual learner",
         "group": "employed", 
-        "age": 25,
-        "education": "",
-        "occupation": "",
-        "hardware": "",
+        "age": 27,
+        "education": "secondary school",
+        "occupation": "community manager",
+        "hardware": "iPhone 6, MacBook Pro",
         "software": "",
         "browser": "",
         "comforts": {
@@ -126,15 +132,19 @@
         "group": "Enterprise",
         "age": 49,
         "education": "university",
-        "occupation": "",
-        "hardware": "",
-        "software": "",
-        "browser": "",
+        "occupation": "Head of Recruitment",
+        "hardware": "iPhone 5S, ASUS Transformer Book",
+        "software": "iOS, Windows 8",
+        "browser": "Safari, Internet Explorer",
         "comforts": {
-            "web": "",
-            "attitude": ""
+            "web": "medium",
+            "attitude": "late majority"
         },
-        "pain": [],
+        "pain": [
+            "It is very difficuly to find the best people for the positions.",
+            "University graduates that apply for jobs with us are frequently lacking the kind of practical, transferable skills we're looking for",
+            ""
+        ],
         "bio": "",
         "goals": []
     },
@@ -145,7 +155,7 @@
         "group": "Education", 
         "age": 56,
         "education": "",
-        "occupation": "",
+        "occupation": "Head of Learning and Development",
         "hardware": "",
         "software": "",
         "browser": "",
@@ -153,7 +163,9 @@
             "web": "",
             "attitude": ""
         },
-        "pain": [],
+        "pain": [
+            "We struggle to attract enough "
+        ],
         "bio": "",
         "goals": []
     },
