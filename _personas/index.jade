@@ -82,10 +82,11 @@ for user, slug in public._data
                 p.title Bio / A day in the life
                 p.body #{ user.bio }
             .cuffs    
-                p.title Pain
+                p.title Pain Points
                     each val in user.pain
                         p.body= val
             .cuffs
                 p.title Goals and Motivation
                     each val in user.goals
                         p.body= val
+        
