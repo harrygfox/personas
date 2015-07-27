@@ -19,8 +19,7 @@ End goal would be to employ the right person with the right talent for the right
 * Enterprise Client
 
 (Works for a science company)
-We're finding it difficult to recruit the best of bio-chemists.
-PAIN - University grads are not sufficiently trained for the work we need them to do. 
+
 I want training material that resolves that
 
 We have professional development courses. 
@@ -30,6 +29,7 @@ We have professional development courses.
     We have the exposure but we don't want to waste time with prerequisits and all the bullshit. 
         We want to facilitate communication between the cohorts before hand
         We want to distribute materials and get learners up to a certain standard before they start.
+
 
 We have positions available (for apprenticeships) how can we make the application process better for the applicants (more engaging) and us (to pick the right applicants {
     

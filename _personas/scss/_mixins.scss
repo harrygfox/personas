@@ -9,7 +9,7 @@
     }
 }
 
-@mixin siblings($margin) {
+@mixin siblings {
     & + & {
         // Targets the direct sibling of this element
             // Useful for columns and rows or several of the same thing
