@@ -2,9 +2,19 @@
     float: left;
     position: relative;
     width: 80%;
-    margin: 1em 10%;
+    max-width: 64em;
+    margin: 1em 10% 0;
     background-color: $yellow;
     border-radius: 0.5em;
+    
+    @include siblings {
+        margin-top: 2em;
+    }
+
+    @include break(1024) {
+        max-width: 75%;
+        margin: 1em 12.5%;
+    }
 
     h2, p, ul, li {
         text-align: left;

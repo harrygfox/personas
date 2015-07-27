@@ -3,7 +3,7 @@ body {
     text-align: center;
     background-color: $darkGreen;
     margin: 0;
-    font-size: $base;
+    font-size: $bf / (16/14) + px;
     * {
         margin: 0;
     }
@@ -18,9 +18,5 @@ h1 {
     padding-bottom: 0.5em;
     margin-bottom: 0.5em;
     border-bottom: $white solid 0.3em;
-
-    @include break(600) {
-        color: red;
-    }
 }
 

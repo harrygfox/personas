@@ -8,3 +8,12 @@
         @content;
     }
 }
+
+@mixin siblings($margin) {
+    & + & {
+        // Targets the direct sibling of this element
+            // Useful for columns and rows or several of the same thing
+        // Can optionally add in definitions here that might otherwise be repeated constantly elsewhere
+        @content;
+    }
+}
