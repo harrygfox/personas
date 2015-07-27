@@ -2,6 +2,8 @@
 
 This repo is still in development and is not yet ready for use as a reference.
 
+*Changes and Updates* that need to be completed are logged under 'issues'.
+
 ## Changing Persona Details
 
 Install harp (optionally with the global flag)
