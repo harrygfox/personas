@@ -20,9 +20,9 @@
         ],
         "bio": "Helena is enthusiastic and savvy. She is very unsure about what to do with her life and sees know value in education for its own sake. Parents and teachers have put her under some considerable pressure to make a decision about her future.",
         "goals": [
-            "To make a career decision that offers me options in the future.",
-            "To find information about working life and what is required or expected of people in work.",
-            "To demonstrate my value and skills beyond what it says on my exam results.",
+            "I want to make a career decision that offers me options in the future.",
+            "I want to find information about working life and what is required or expected of people in work.",
+            "I want to demonstrate my value and skills beyond what it says on my exam results.",
             "I am motivated by commitments I make to my parents, friends, and people I respect."
         ]
     },
@@ -43,7 +43,9 @@
         },
         "pain": [],
         "bio": "",
-        "goals": []
+        "goals": [
+            "I want to spend a few minutes a day learning new things."
+        ]
     },
 
     "Clarence Ford": {
@@ -60,7 +62,9 @@
             "web": "",
             "attitude": "early majority"
         },
-        "pain": [],
+        "pain": [
+            "I have very little time to commit to CPD."
+        ],
         "bio": "",
         "goals": []
     },
@@ -80,12 +84,16 @@
             "attitude": "innovator"
         },
         "pain": [
+            "Sitting and focusing on something difficult for more than a few minutes is really boring.",
             "I don't know if what I'm learning is the most recent or most relevant thing.",
             "I am worried that committing to learning one thing over another could be a waste of time.",
             "When I am stuck I often struggle to find the right kind of help."
         ],
-        "bio": "Zachery is a very independently minded individual and is not swayed by the opinions or decision of his peers. He has his finger on the pulse of modern developments in technology.",
-        "goals": []
+        "bio": "Zachery is a very independently minded individual and is not swayed by the opinions or decision of his peers. He has his finger on the pulse of modern developments in technology and has a very short attention span.",
+        "goals": [
+            "I want to learn in bitesized amounts at my leisure.",
+            "I want it all to amount to something"
+        ]
     },
 
     "Kimberley Pearce": {
@@ -121,9 +129,15 @@
             "web": "",
             "attitude": ""
         },
-        "pain": [],
-        "bio": "",
-        "goals": []
+        "pain": [
+            "I have very little time to commit to CPD.",
+            "I only have my lunch times to do any learning during the day, I don't like studying in my free time."
+        ],
+        "bio": "Sacha has been told she needs to complete her course of continuous professional development (CPD). She is a very busy professional and works around the clock to stay on top of the communities she manages.",
+        "goals": [
+            "I want to see suggestions on what I should learn next and how long it would take me.",
+            "I want to learn other things around and beyond what I'm required to as part of my CPD."
+        ]
     },
 
     "Esther Leone": {
@@ -148,10 +162,11 @@
         ],
         "bio": "Esther's working day revolves around new starters and her company's strategy for attracting new recruits. She is particularly concerned about the availability of positions for apprentices and young people for whom university was either not an option or not the right option.",
         "goals": [
-            "To increase our visibility to our target demographics.",
-            "To attract more people who can demonstrate the skills we're looking for.",
-            "To provide new recruits with training material that provides the kind of working skills we're looking for.",
-            "To encourage applications by making our offering more appealing"
+            "I want to increase our visibility to our target demographics.",
+            "I want to attract more people who can demonstrate the skills we're looking for.",
+            "I want to be able to see that those demonstrable skills so that I know the applicant has them.",
+            "I want to provide new recruits with training material that gives them the skills we're looking for.",
+            "I want to encourage applications by making our offering and the benefits much clearer."
         ]
     },
 
@@ -160,20 +175,28 @@
         "type": "potential client",
         "group": "Education", 
         "age": 56,
-        "education": "",
+        "education": "university",
         "occupation": "Head of Learning and Development",
-        "hardware": "",
-        "software": "",
-        "browser": "",
+        "hardware": "iPhone 6, MacBook Pro",
+        "software": "iOS, OSX",
+        "browser": "Safari",
         "comforts": {
-            "web": "",
-            "attitude": ""
+            "web": "low",
+            "attitude": "early majority"
         },
         "pain": [
-            "We struggle to attract enough "
+            "The services we offer are not exposed enough. People just don't know we're here.",
+            "We struggle to attract enough of the right people to our courses.",
+            "At the start of a course there is a lot of time wasted on processes, first principals, and orientation.",
+            "Sending employees for CPD is expensive, disruptive, it's often abroad, and it's very time consuming."
         ],
-        "bio": "",
-        "goals": []
+        "bio": "Maurice manages his university's internal and external learning resources. He oversees the deliver of all training courses.",
+        "goals": [
+            "I want to have access to a bigger pool of potential applicants to our courses.",
+            "I want access to the right kinds of applicants, we need to advertise where they are.",
+            "I want to digitise the preliminary parts of the courses so that it is done before the students arrive.",
+            "I also want to facilitate team meetings and communication between members of the teams prior to starting the course."
+        ]
     },
 
     "Alan Delaney": {
@@ -210,7 +233,9 @@
             "attitude": ""
         },
         "pain": [],
-        "bio": "",
-        "goals": []
+        "bio": "I work closely with employers to deliver materials for our students.",
+        "goals": [
+            "I want to attract new enrollments to our course."
+        ]
     }
 }
