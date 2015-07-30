@@ -3,8 +3,7 @@ body {
     text-align: center;
     background-color: $darkGreen;
     margin: 0;
-    font-size: 14px;
-
+    font-size: $bf / (16/14) + px;
     * {
         margin: 0;
     }
@@ -20,3 +19,4 @@ h1 {
     margin-bottom: 0.5em;
     border-bottom: $white solid 0.3em;
 }
+

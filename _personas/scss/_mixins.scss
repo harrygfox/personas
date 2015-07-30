@@ -1,0 +1,19 @@
+@mixin break($breakPoint, $min-max: min-width) {
+    // Declares $breakpoint var with no value
+    // Declares $min-max which defaults to a value of 'min-wdith'
+        // Min-width is a mobile-first approach to responsive design. 
+    $em: $breakPoint / $bf;
+        // Em's are calculated by dividing the breakpoint (in pixels) by the base font (defined in _typography.scss)
+    @media( #{ $min-max }: #{ $em }em ) {
+        @content;
+    }
+}
+
+@mixin siblings {
+    & + & {
+        // Targets the direct sibling of this element
+            // Useful for columns and rows or several of the same thing
+        // Can optionally add in definitions here that might otherwise be repeated constantly elsewhere
+        @content;
+    }
+}
