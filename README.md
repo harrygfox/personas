@@ -15,7 +15,7 @@ $ sudo npm install -g harp
 **Start the server** to see the output in your browser
 
 ```
-$ harp server personas
+$ harp server _personas
 ```
 which should generate:
 ```
@@ -45,7 +45,7 @@ For production please follow these steps:
 1. fetch the gh-pages branch / pull for updates to the branch.
 2. pull and merge the updated master branch (after any pull requests have been resolved) into the gh-pages branch
 3. from the root run 
-    `$ harp compile personas ./`
+    `$ harp compile _personas ./`
 4. commit and push to the remote gh-pages branch
 
 **NEVER run the `compile` command on master**. The command must be treated as a final step before publishing. 
