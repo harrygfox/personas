@@ -84,9 +84,9 @@
             "attitude": "innovator"
         },
         "pain": [
+            "I am worried that committing to learning one thing over another could be a waste of time.",
             "Sitting and focusing on something difficult for more than a few minutes is really boring.",
             "I don't know if what I'm learning is the most recent or most relevant thing.",
-            "I am worried that committing to learning one thing over another could be a waste of time.",
             "When I am stuck I often struggle to find the right kind of help."
         ],
         "bio": "Zachery is a very independently minded individual and is not swayed by the opinions or decision of his peers. He has his finger on the pulse of modern developments in technology and has a very short attention span.",
@@ -101,8 +101,8 @@
         "type": "actual learner",
         "group": "graduate", 
         "age": 23,
-        "education": "",
-        "occupation": "",
+        "education": "Masters Degree",
+        "occupation": "Student",
         "hardware": "",
         "software": "",
         "browser": "",
