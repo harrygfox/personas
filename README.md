@@ -6,6 +6,9 @@ This repo is still in development and is not yet ready for use as a reference.
 
 ## Changing Persona Details
 
+Install Node.js and npm (Node Package Manager) if you don't have it already 
+[npm-docs: installing node and npm](https://docs.npmjs.com/getting-started/installing-node)
+
 Install harp (optionally with the global flag)
 ```
 $ sudo npm install -g harp
