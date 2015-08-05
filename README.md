@@ -47,6 +47,14 @@ For production please follow these steps:
 
 1. fetch the gh-pages branch / pull for updates to the branch.
 2. pull and merge the updated master branch (after any pull requests have been resolved) into the gh-pages branch
+  2.1. If, when you run `git merge master` you receive the following message:
+```
+CONFLICT (modify/delete): README.md deleted in HEAD and modified in master. Version master of README.md left in tree.
+Automatic merge failed; fix conflicts and then commit the result.
+```
+then simply remove the readme with `rm README.md` 
+stage the removal for commit with `git add README.md`
+and commit all changes.
 3. from the root run 
     `$ harp compile _personas ./`
 4. commit and push to the remote gh-pages branch
