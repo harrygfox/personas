@@ -2,11 +2,12 @@ img.persona-image {
     display: block;
     max-width: 85%;
     margin: 0 auto 0 0;
+    padding: 0.5em;
 }
 img.user-type-img {
     max-width: 6%;
     position: absolute;
-    top: 5%;
+    top: 1em;
     right: 2%;
 }
 
@@ -19,7 +20,7 @@ p.title {
 
 p.key {
     font-weight: 600;
-    font-size: 0.9em;
+    font-size: 1em;
     text-transform: uppercase;
     color: $darkGreen;
     margin-bottom: 0.2em;
