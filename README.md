@@ -44,19 +44,23 @@ The **master** branch is the main branch for editing and updating the code.
 The **gh-pages** branch is compiled and has no `README.md`. This is because harp compiles all pre-processors and clears the destination folder, which for github pages' purposes, is the root. 
 
 For production please follow these steps:
+---
+Fetch the gh-pages branch / pull for updates to the branch.
 
-1. fetch the gh-pages branch / pull for updates to the branch.
-2. pull and merge the updated master branch (after any pull requests have been resolved) into the gh-pages branch
-  2.1. If, when you run `git merge master` you receive the following message:
+Pull and merge the updated master branch (after any pull requests have been resolved) into the gh-pages branch
+  
+  *If, when you run* `git merge master` *you receive the following message:*
   ```
   CONFLICT (modify/delete): README.md deleted in HEAD and modified in master. Version master of README.md left in tree.
   Automatic merge failed; fix conflicts and then commit the result.
   ```
-  then simply remove the readme with `rm README.md` 
-  stage the removal for commit with `git add README.md`
-  and commit all changes.
-3. from the root run 
+  *then simply remove the readme with* `rm README.md` 
+  *stage the removal for commit with* `git add README.md`
+  *and commit all changes.*
+
+From the root run 
     `$ harp compile _personas ./`
-4. commit and push to the remote gh-pages branch
+
+Commit and push to the remote gh-pages branch
 
 **NEVER run the `compile` command on master**. The command must be treated as a final step before publishing. 
