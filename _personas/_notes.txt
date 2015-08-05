@@ -102,6 +102,7 @@ Zairah
 
         Goals
             I want the profile system to be more open-ended: I want to show off what I'm really about and not be confined to my employment and education.
+            I want to know what positions are available to me with my *current* skills (also beyond what I know now).
             I want certification and accreditation by official bodies when I complete courses. Recognition is key.
             I want to learn and earn my accreditations in as little time as possible. 
 
@@ -121,59 +122,48 @@ Zairah
 
 Carl
 
-LEARNERS
-    - where am i on the course what's next, 
+    LEARNERS
+        - where am i on the course what's next, 
+            "I want to see my progression through my current course as well as what's coming next or what COULD come next"
 
-a lot of aclients pay for recruiter applicant trackers
-- dashboard: want to export and to report.
-                I want it to look good. 
-            - demonstrate moving through stages e.g. open-ended 
-                - sift
-                - video interview
-                - face to face interview etc. 
-                - offer and acceptance
-                - onboarding course
-                I'd also like to notify those people directly through the system.
-
-            - compared to what jobs are avaialble. 
-
-            ______see Resumator employer dashboard image.______
-
-            best applicant tracking software.
 
 Thisis something a recruiter or an internal recuiter would use. 
+    a lot of aclients pay for recruiter applicant trackers
+    - dashboard: want to export and to report.
+                    I want it to look good. 
+                - demonstrate moving through stages e.g. open-ended 
+                    - sift
+                    - video interview
+                    - face to face interview etc. 
+                    - offer and acceptance
+                    - onboarding course
+                    I'd also like to notify those people directly through the system.
 
-typically:
-earn 20k - 1st or 2nd job not highly experienced report to a manager. Cover my arse - this cmapaign is going well. 
+                - compared to what jobs are avaialble. 
 
-recruitment is the main goal. Some sort of hr focused job. 
+                ______see Resumator employer dashboard image.______
+
+                best applicant tracking software.
+    typically:
+    earn 20k - 1st or 2nd job not highly experienced report to a manager. Cover my arse - this cmapaign is going well. 
+
+    recruitment is the main goal. Some sort of hr focused job. 
 
 
 
 Early careers manager works with - graduates and apprentices
-*not dumb recruitment* like head of recruitment
-    - they woll be going on to structured development courses together
+    *not dumb recruitment* like head of recruitment
+        - they woll be going on to structured development courses together
 
-    - find them
-    - onboard thme
-    - look after them
-
-
-- I want to know what the learners strengths and weaknesses are
+        - find them
+        - onboard thme
+        - look after them
 
 
-
-Learners - when I get hired and move to a new job or whatever the learning and development courses remain with the learner
-    - The learner - owns this. Not the employer. 
-
-    We create a common-denominator - you own that learning and take it with you wherever you go. It takes your experience and efforts out of the hands of recruiters and hr.
-
-
-
+    - I want to know what the learners strengths and weaknesses are
 
 
 Kwame
-
 
         core potential clients
             - we have been mandated to employ x number of apprentices and we want he best ones. 
