@@ -1,0 +1,28 @@
+.frame {
+    position: relative;
+    width: 80%;
+    max-width: 64em;
+    margin: 1em 10% 0;
+    background-color: $yellow;
+    border-radius: 0.5em;
+    
+    @include siblings {
+        margin-top: 2em;
+    }
+
+    @include break(1024) {
+        max-width: 65em;
+        margin: 1em auto;
+    }
+
+    h2, p, ul, li {
+        text-align: left;
+    }
+
+    h2 {
+        margin: 0.2em 0
+    }
+    p {
+        color: $black;
+    }
+}

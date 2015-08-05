@@ -1,37 +1,7 @@
-.frame {
-    float: left;
-    position: relative;
-    width: 80%;
-    max-width: 64em;
-    margin: 1em 10% 0;
-    background-color: $yellow;
-    border-radius: 0.5em;
-    
-    @include siblings {
-        margin-top: 2em;
-    }
-
-    @include break(1024) {
-        max-width: 75%;
-        margin: 1em 12.5%;
-    }
-
-    h2, p, ul, li {
-        text-align: left;
-    }
-
-    h2 {
-        margin: 0.2em 0
-    }
-    p {
-        color: $black;
-    }
-}
-
 img.persona-image {
     display: block;
     max-width: 85%;
-    margin: 0 auto 1em 0;
+    margin: 0 auto 0 0;
 }
 img.user-type-img {
     max-width: 6%;
@@ -42,7 +12,7 @@ img.user-type-img {
 
 p.title {
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1.25em;
     text-transform: capitalize;
     margin-bottom: 0.25em;
 }
