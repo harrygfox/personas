@@ -1,8 +1,15 @@
 .intro {
     margin-bottom: 1em;
+    background-color: $black;
+
+    * {
+        @include break(1024) {
+            max-width: 70em;
+            margin: 0 auto;
+        }
+    }
 
     p, ul {
-        background-color: $black;
         color: $yellow;
         padding: 1em 12em;
         text-align: justify;

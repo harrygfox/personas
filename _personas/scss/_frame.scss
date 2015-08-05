@@ -1,0 +1,35 @@
+.frame {
+    position: relative;
+    width: 80%;
+    max-width: 64em;
+
+    margin: 1em 10% 0;
+    padding: 0.75em;
+    border-radius: 0.5em;
+
+    background: url(/img/sprinkles.png);
+
+    -webkit-box-shadow: 0px 3px 8px 0px rgb(34, 34, 34); 
+    -moz-box-shadow: 0px 3px 8px 0px rgb(34, 34, 34); 
+    box-shadow: 0px 3px 8px 0px rgb(34, 34, 34);
+    
+    @include siblings {
+        margin-top: 2em;
+    }
+
+    @include break(1024) {
+        max-width: 65em;
+        margin: 1em auto;
+    }
+
+    h2, p, ul, li {
+        text-align: left;
+    }
+
+    h2 {
+        margin: 0.2em 0
+    }
+    p {
+        color: $black;
+    }
+}
