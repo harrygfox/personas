@@ -45,16 +45,20 @@ for user, slug in public._data
                         span #{ user.hardware }
 
             .col-50
-                .cuffs    
-                    p.title Tech Comforts
-                    p.key Software:&nbsp
-                        span #{ user.software }
-                    p.key Browser:&nbsp
-                        span #{ user.browser }
-                    p.key Web:&nbsp
-                        span #{ user.comforts.web }
-                    p.key Attitude:&nbsp
-                        span #{ user.comforts.attitude }
+                .cuffs.technology    
+                    p.title.center Technology Comforts
+                    .data-row
+                        p.key.table-cell Web / Attitude:&nbsp
+                        span.table-cell #{ user.comforts.web } &nbsp/ <br> #{ user.comforts.attitude }
+                    .data-row
+                        p.key.table-cell Software:&nbsp
+                        span.table-cell #{ user.software }
+                    .data-row
+                        p.key.table-cell Browser:&nbsp
+                        span.table-cell #{ user.browser }
+                    .data-row
+                        p.key.table-cell Other Services:&nbsp
+                        span.table-cell #{ user.comforts.services }
                 
         .col-100
             .cuffs

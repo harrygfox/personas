@@ -16,6 +16,9 @@ p.title {
     font-size: 1.25em;
     text-transform: capitalize;
     margin-bottom: 0.25em;
+    &.center {
+        text-align: center;
+    }
 }
 
 p.key {
@@ -23,18 +26,38 @@ p.key {
     font-size: 1em;
     text-transform: uppercase;
     color: $darkGreen;
-    margin-bottom: 0.2em;
-    span {
-        text-transform: capitalize;
-        color: $black;
-        font-weight: 300;
-    }
+    margin-bottom: 0.25em;
+
+    color: $black;
+    font-weight: 300;
+
     &.user {
         font-size: 1.1em;
         span {
             padding: 0 0.5em;
         }
     }
+    &.table-cell {
+        display: table-cell;
+        text-align: right;
+    }
+}
+
+.technology {
+    margin-top: -3em;
+}
+
+.data-row {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+span.table-cell {
+    display: table-cell;
+    text-align: left;
+    padding-bottom: 0.25em;
+        // equivalent to margin bottom above but for table-cells that cannot support margin. 
 }
 
 ul.needs {
