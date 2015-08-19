@@ -55,6 +55,7 @@ p.key {
 span.table-cell {
     display: table-cell;
     text-align: left;
+    text-transform: capitalize;
     padding-bottom: 0.25em;
         // equivalent to margin bottom above but for table-cells that cannot support margin. 
 }
