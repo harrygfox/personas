@@ -43,7 +43,7 @@
         "comforts": {
             "web": "digital native",
             "attitude": "early majority",
-            "services": "facebook, instagram, snapchat"
+            "services": "facebook, instagram, duolingo"
         },
         "pain": [
             "I don't know what the working environment is actually like.",
@@ -75,7 +75,7 @@
         "comforts": {
             "web": "medium",
             "attitude": "early majority",
-            "services": "facebook, instagram, snapchat"
+            "services": "facebook, udemy"
         },
         "pain": [
             "I'm bored with my current job.",
@@ -199,7 +199,7 @@
         "comforts": {
             "web": "medium",
             "attitude": "late majority",
-            "services": "facebook, instagram, snapchat"
+            "services": "bullhorn, facebook"
         },
         "pain": [
             "It is very difficult to find the best people for the positions.",
@@ -230,7 +230,7 @@
         "comforts": {
             "web": "low",
             "attitude": "early majority",
-            "services": "facebook, instagram, snapchat"
+            "services": "facebook"
         },
         "pain": [
             "The services we offer are not exposed enough. People just don't know we're here.",
@@ -256,11 +256,11 @@
         "occupation": "recruitment officer",
         "hardware": "ACER Aspire, Samsung Galaxy Alpha",
         "software": "Windows 10, Android",
-        "browser": "ie9, Chrome",
+        "browser": "ie8, Chrome",
         "comforts": {
             "web": "",
             "attitude": "",
-            "services": "facebook, instagram, snapchat"
+            "services": "Gradweb Candidate Management"
         },
         "pain": [],
         "bio": "Lewie's main focus at work is to recruit new starters to the company he works for. He reports to a manager who holds him accountable for achieving recruitment goals. Delivering positive reports to his manager is Lewie's primary motivation.",
@@ -288,7 +288,7 @@
         "comforts": {
             "web": "",
             "attitude": "",
-            "services": "facebook, instagram, snapchat"
+            "services": "facebook, WCN (crm tool)"
         },
         "pain": [
             "We have been mandated to employ a number of apprentices but have not employed apprentices before."
