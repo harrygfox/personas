@@ -258,8 +258,8 @@
         "software": "Windows 10, Android",
         "browser": "ie8, Chrome",
         "comforts": {
-            "web": "",
-            "attitude": "",
+            "web": "digital native",
+            "attitude": "Early Adopter",
             "services": "Gradweb Candidate Management"
         },
         "pain": [],
@@ -282,12 +282,12 @@
         "age": 42,
         "education": "university",
         "occupation": "early careers manager",
-        "hardware": "HP Pavilion",
-        "software": "",
-        "browser": "ie10",
+        "hardware": "HP Pavilion, iPad",
+        "software": "iOS",
+        "browser": "ie10, firefox",
         "comforts": {
-            "web": "",
-            "attitude": "",
+            "web": "medium",
+            "attitude": "Late Majority",
             "services": "facebook, WCN (crm tool)"
         },
         "pain": [
