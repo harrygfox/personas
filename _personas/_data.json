@@ -11,7 +11,8 @@
         "browser": "Safari",
         "comforts": {
             "web": "digital native",
-            "attitude": "early adopter"
+            "attitude": "early adopter",
+            "services": "facebook, instagram, snapchat"
         },
         "pain": [
             "I don't know whether University is right for me or whether I should start a career",
@@ -41,7 +42,8 @@
         "browser": "Chrome",
         "comforts": {
             "web": "digital native",
-            "attitude": "late majority"
+            "attitude": "early majority",
+            "services": "facebook, instagram, duolingo"
         },
         "pain": [
             "I don't know what the working environment is actually like.",
@@ -72,7 +74,8 @@
         "browser": "Safari",
         "comforts": {
             "web": "medium",
-            "attitude": "early majority"
+            "attitude": "early majority",
+            "services": "facebook, udemy"
         },
         "pain": [
             "I'm bored with my current job.",
@@ -101,7 +104,8 @@
         "browser": "Chrome",
         "comforts": {
             "web": "Digital native",
-            "attitude": "innovator"
+            "attitude": "innovator",
+            "services": "facebook, instagram, snapchat"
         },
         "pain": [
             "I am worried that committing to learning one thing over another could be a waste of time.",
@@ -131,7 +135,8 @@
         "browser": "Safari",
         "comforts": {
             "web": "medium",
-            "attitude": "early majority"
+            "attitude": "early adopter",
+            "services": "facebook, instagram, snapchat"
         },
         "pain": [
             "I don't have real-world experiences relevant to the careers I have been looking at.",
@@ -160,7 +165,8 @@
         "browser": "Chrome",
         "comforts": {
             "web": "high",
-            "attitude": "early adopter"
+            "attitude": "early adopter",
+            "services": "facebook, instagram, snapchat"
         },
         "pain": [
             "I have very little time to commit to CPD.",
@@ -192,7 +198,8 @@
         "browser": "Safari, Edge",
         "comforts": {
             "web": "medium",
-            "attitude": "late majority"
+            "attitude": "late majority",
+            "services": "bullhorn, facebook"
         },
         "pain": [
             "It is very difficult to find the best people for the positions.",
@@ -222,7 +229,8 @@
         "browser": "Safari",
         "comforts": {
             "web": "low",
-            "attitude": "early majority"
+            "attitude": "early majority",
+            "services": "facebook"
         },
         "pain": [
             "The services we offer are not exposed enough. People just don't know we're here.",
@@ -248,10 +256,11 @@
         "occupation": "recruitment officer",
         "hardware": "ACER Aspire, Samsung Galaxy Alpha",
         "software": "Windows 10, Android",
-        "browser": "ie9, Chrome",
+        "browser": "ie8, Chrome",
         "comforts": {
-            "web": "",
-            "attitude": ""
+            "web": "digital native",
+            "attitude": "Early Adopter",
+            "services": "Gradweb Candidate Management"
         },
         "pain": [],
         "bio": "Lewie's main focus at work is to recruit new starters to the company he works for. He reports to a manager who holds him accountable for achieving recruitment goals. Delivering positive reports to his manager is Lewie's primary motivation.",
@@ -273,12 +282,13 @@
         "age": 42,
         "education": "university",
         "occupation": "early careers manager",
-        "hardware": "HP Pavilion",
-        "software": "",
-        "browser": "ie10",
+        "hardware": "HP Pavilion, iPad",
+        "software": "iOS",
+        "browser": "ie10, firefox",
         "comforts": {
-            "web": "",
-            "attitude": ""
+            "web": "medium",
+            "attitude": "Late Majority",
+            "services": "facebook, WCN (crm tool)"
         },
         "pain": [
             "We have been mandated to employ a number of apprentices but have not employed apprentices before."
